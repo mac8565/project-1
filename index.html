@@ -1,155 +1,144 @@
 <!DOCTYPE HTML>
-
 <html>
-	<head>
-		<title>Massively by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<head>
+    <title>Massively by HTML5 UP</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <style>
+        .projects-container {
+            display: flex;
+            flex-wrap: wrap; /* Allows wrapping on smaller screens */
+            justify-content: space-between; /* Distributes space between items */
+            gap: 20px; /* Space between project items */
+            margin: 20px 0; /* Margin around the container */
+        }
+        .project {
+            flex: 1 1 30%; /* Allows the project boxes to grow and shrink, with a base width of 30% */
+            border: 1px solid #ccc;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            box-sizing: border-box; /* Ensures padding is included in the width */
+        }
+        .project img {
+            width: 100%; /* Make images responsive */
+            height: 150px; /* Maintain aspect ratio */
+        }
+    </style>
+</head>
+<body class="is-preload">
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+    <!-- Wrapper -->
+    <div id="wrapper" class="fade-in">
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>My Portfolio</h1>
-						<p>Showcase my projects and skillsets</p>
-					</div>
+        <!-- Intro -->
+        <div id="intro">
+            <h1>My Portfolio</h1>
+            <p>Showcase my projects and skillsets</p>
+        </div>
 
-				
+        <!-- Nav -->
+        <nav id="nav">
+            <ul class="links">
+                <li class="Project 1"><a href="#Project 1">Project 1</a></li>
+                <li class="Project 2"><a href="#Project 2">Project 2</a></li>
+                <li class="Project 3"><a href="#Project 3">Project 3</a></li>
+            </ul>
+            <ul class="icons">
+                <li><a href="https://www.linkedin.com/in/luis-andrade-72392374" class="icon brands alt fa-linkedin" target="_blank"><span class="label">Linkedin</span></a></li>
+                <li><a href="https://github.com/mac8565" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+            </ul>
+        </nav>
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="Project 1"><a href="#Project 1">Project 1</a></li>
-							<li class="Project 2"><a href="#Project 2">Project 2</a></li>
-							<li class="Project 3"><a href="#Project 3">Project 3</a></li>
-							
-						</ul>
-						<ul class="icons">
+        <!-- Main -->
+        <div id="main">
 
-							<li><a href="https://www.linkedin.com/in/luis-andrade-72392374" class="icon brands alt fa-linkedin" target="_blank"><span class="label">Linkedin</span></a></li>
-							<li><a href="https://github.com/mac8565" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+            <!-- Featured Post -->
+            <article class="post featured">
+                <header class="major">
+                    <h2><a href="#">Hi, I'm Luis</a></h2>
+                    <p>Building Dynamic, User-Centric Websites, I'm a Front-End Developer Ready to Code!</p>
+                </header>
+                <a href="#" class="image main"><img src="images/Code.jpg" width="30" height="400" alt="" /></a>
+            </article>
 
-				<!-- Main -->
-					<div id="main">
+            <!-- Projects Section -->
+            <section class="projects-container">
+                <article class="project">
+                    <header>
+                        <h2 id="Project 1">Project 1</h2>
+                    </header>
+                    <a href="#" class="image fit"><img src="images/Asteroid.jpg" alt="" /></a>
+                    <p> Asteroid Game created in Javascript <i class="fab fa-js"></i>.</p>
+                    <a href="Asteroid Game.html" target="_blank">
+                        <button style="margin-right: 10px;">Live Demo</button>
+                    </a>
+                    <a href="https://github.com/mac8565/project-1" target="_blank">
+                        <button>GitHub</button>
+                    </a>
+                </article>
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									
-									<h2><a href="#">Hi, I'm Luis</a></h2>
-									<p>Building Dynamic, User-Centric Websites, I'm a Front-End Developer Ready to Code!</p>
-								</header>
-								<a href="#" class="image main"><img src="images/Code.jpg" width="30" height="400" alt="" /></a>
+                <article class="project">
+                    <header>
+                        <h2 id="Project 2">Project 2</h2>
+                    </header>
+                    <a href="#" class="image fit"><img src="images/Clock.jpg" alt="" /></a>
+                    <p> Digital Clock created in React <i class="fab fa-react"></i>.</p>
+                    <a href="https://mac8565.github.io/project-2/" target="_blank">
+                        <button style="margin-right: 10px;">Live Demo</button>
+                    </a>
+                    <a href="https://github.com/mac8565/project-2" target="_blank">
+                        <button>GitHub</button>
+                    </a>
+                </article>
 
+                <article class="project">
+                    <header>
+                        <h2 id="Project 3">Project 3</h2>
+                    </header>
+                    <a href="#" class="image fit"><img src="images/Weather.jpg" alt="" /></a>
+                    <p> Weather App created in Python <i class="fab fa-python"></i>.</p>
+                    <p>Note: Open folder Python-Weather-App and copy code in VSCODE <br>
+                        and run Terminal if Mac type python3 app.py or PC python app.py</p>
+                    <a href="https://github.com/mac8565/project-1" target="_blank">
+                        <button>GitHub</button>
+                    </a>
+                </article>
+            </section>
+        </div>
 
+        <!-- Footer -->
+        <footer id="footer">
+            <section>
+                <h3>Email</h3>
+                <p><a href="#">surf205065@aol.com</a></p>
+            </section>
+            <section>
+                <h3>Social</h3>
+                <ul class="icons alt">
+                    <li><a href="https://www.linkedin.com/in/luis-andrade-72392374" class="icon brands alt fa-linkedin" target="_blank"><span class="label">Linkedin</span></a></li>
+                    <li><a href="https://github.com/mac8565" class="icon brands alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+                </ul>
+            </section>
+        </footer>
 
-					
-							<ul>
+        <!-- Copyright -->
+        <div id="copyright">
+            <ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+        </div>
 
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										<h2 id="Project 1">Project 1</h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/Asteroid.jpg"  width="20" height="325" alt="" /></a>
-									<p> Asteroid Game created in Javascript <i class="fab fa-js"></i> .</p>
-	                                <a href="Asteroid Game.html" target="_blank">
-                                    <button style="Margin-right: 40px;">Live Demo</button>
-								    </a>  
-									
-									<a href="https://github.com/mac8565/project-1" target="_blank">
-									<button style="Margin-left: 25px;">GitHub</button>
-								    </a> 
+    </div>
 
-							    </article>
-							</ul>
-							<ul>
-							
-								<article>
-									<header>
-										
-										<h2 id="Project 2">Project 2</h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/Clock.jpg" width="20" height="325" alt="" /></a>
-									<p> Digital Clock created in React <i class="fab fa-react"></i>.</p>
-									<a href="https://mac8565.github.io/project-2/" target="_blank">
-										<button style="Margin-right: 40px;">Live Demo</button>
-										</a>  
-										
-										<a href="https://github.com/mac8565/project-2" target="_blank">
-										<button style="Margin-left: 25px;">GitHub</button>
-										</a> 
-								</article>
-							</ul>
-                                                       <ul>
-							<article>
-								<header>
-									
-									<h2 id="Project 3">Project 3</h2>
-								</header>
-								<a href="#" class="image fit"><img src="images/Weather.jpg" width="20" height="325" alt="" /></a>
-								<p> Weather App created in Python <i class="fab fa-python"></i>.</p>
-								<p>Note: Open folder Python-Weather-App and copy code in VSCODE <br>
-									and run Terminal  if Mac type python3 app.py or PC python app.py</br> </p>
-									<a href="https://github.com/mac8565/project-1" target="_blank">
-									<button style="Margin-left: 25px;">GitHub</button>
-									</a> 
-							</article>
-						</ul>
-							
-							
-							</section>
-						
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
 
-						<!-- Footer -->
-					
-
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<section>
-							<form method="post" action="#">
-						
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">surf205065@aol.com</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="https://www.linkedin.com/in/luis-andrade-72392374" class="icon brands alt fa-linkedin" target="_blank"><span class="label">Linkedin</span></a></li>
-									<li><a href="https://github.com/mac8565" class="icon brands alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</form>
-					</footer>
-
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-					</div>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+</body>
 </html>
-
