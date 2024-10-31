@@ -31,6 +31,9 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	
+	
+	
 }
 
 ol, ul {
@@ -99,7 +102,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: lightgreen;
+		background-image: rgb(12, 195, 155);
 	}
 
 	 
@@ -147,7 +150,7 @@ input, select, textarea {
 		}
 
 	body {
-		color: black;
+		color:black;
 	}
 
 	body, input, select, textarea {
@@ -316,7 +319,7 @@ input, select, textarea {
 	}
 
 	blockquote {
-		border-left-color: #eeeeee;
+		border-left-color: #06349e;
 	}
 
 	code {
@@ -3736,7 +3739,7 @@ input, select, textarea {
 					}
 
 						#nav ul.links li.active a:hover {
-							color: #18bfef !important;
+							color: #147e9b !important;
 						}
 
 		#nav ul.icons {
@@ -4502,7 +4505,7 @@ input, select, textarea {
 		top: 0.75rem;
 		right: 0.75rem;
 		border: 0;
-		color: #ffffff;
+		color: #1179b9;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 0.9rem;
 		font-weight: 900;
@@ -4531,13 +4534,13 @@ input, select, textarea {
 		}
 
 		#navPanelToggle.alt {
-			background-color: rgba(255, 255, 255, 0.875);
+			background-color: rgba(7, 35, 160, 0.875);
 			box-shadow: 0 0.125rem 0.75rem 0 rgba(30, 37, 45, 0.25);
-			color: #212931;
+			color: #195b9d;
 		}
 
 			#navPanelToggle.alt:hover {
-				background-color: #ffffff;
+				background-color: #2566cd;
 			}
 
 		@media screen and (max-width: 980px) {
@@ -4568,9 +4571,9 @@ input, select, textarea {
 		transition: transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		display: none;
 		-webkit-overflow-scrolling: touch;
-		background: #090909;
+		background: #0e2bac;
 		box-shadow: none;
-		color: #212931;
+		color: #125699;
 		height: 100%;
 		max-width: 80%;
 		overflow-y: auto;
@@ -4589,7 +4592,7 @@ input, select, textarea {
 		}
 
 			#navPanel .links li {
-				border-top: solid 2px #eeeeee;
+				border-top: solid 2px #1690cd;
 			}
 
 				#navPanel .links li a {
@@ -4616,7 +4619,7 @@ input, select, textarea {
 			transition: color 0.2s ease-in-out;
 			-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 			border: 0;
-			color: #909498;
+			color: #1c66af;
 			cursor: pointer;
 			display: block;
 			height: 3.25rem;
@@ -4648,7 +4651,7 @@ input, select, textarea {
 			}
 
 			#navPanel .close:hover {
-				color: #212931;
+				color: #235a91;
 			}
 
 			@media screen and (max-width: 736px) {
@@ -4687,8 +4690,10 @@ input, select, textarea {
 			-webkit-transform: translateX(0);
 			-ms-transform: translateX(0);
 			transform: translateX(0);
-			box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
+			box-shadow: 0 0 1.5rem 0 rgba(39, 53, 156, 0.345);
 			visibility: visible;
 		}
 
 	}
+
+	
